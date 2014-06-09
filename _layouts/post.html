@@ -1,0 +1,26 @@
+---
+layout: layout
+---
+
+{% include prettify.html %}
+
+<article>
+  <h1>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </h1>
+
+  {% unless page.hide %}
+  <section class="byline">
+    {{ page.date | date: "%B %e, %Y" }}
+  </section>
+  {% endunless %}
+
+  {% include toc.html %}
+
+  {{ content }}
+  
+
+  {% include twitter.html %}
+  <hr>
+  {% include disqus.html %}
+</article>
