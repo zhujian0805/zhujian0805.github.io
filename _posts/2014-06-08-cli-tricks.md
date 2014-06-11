@@ -1,6 +1,6 @@
 --- 
 layout: post
-title: CLI tricks
+title: Linux command line tricks
 category: other
 intro: "CLI Tricks"
 ---
