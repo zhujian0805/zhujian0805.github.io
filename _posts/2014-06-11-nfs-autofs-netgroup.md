@@ -15,9 +15,12 @@ Autofs可以避免以上的问题, 自動掛載的 autofs 服務可以在用戶�
 
 
 Review:
-1 Network FileSystem (NFS) 可以讓主機之間透過網路分享彼此的檔案與目錄；
+1 Network FileSystem (NFS) 可以讓主機之間透過網路分享彼此的檔案與目錄;
+
 2 NFS 主要是透過 RPC 來進行 file share 的目的，所以 Server 與 Client 的 RPC 一定要啟動才行！
+
 3 NFS 的設定檔就是 /etc/exports 這個檔案；
+
 4 NFS 的權限可以觀察 /var/lib/nfs/etab，至於的重要登錄檔可以參考 /var/lib/nfs/xtab
 5 這個檔案，還包含相當多有用的資訊在其中！
 6 NFS 伺服器與用戶端的使用者帳號名稱、UID 最好要一致，可以避免權限錯亂：
