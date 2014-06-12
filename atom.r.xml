@@ -9,18 +9,18 @@ layout: nil
  <link type="application/atom+xml" rel="self" href="http://domain/atom.xml"/>
  <link type="text/html" rel="alternate" href="http://domain/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://al3xandr3.github.com/tags/r.html</id>
+ <id>http://zhujian0805.github.com/tags/r.html</id>
  <author>
-   <name>al3xandr3</name>
-   <email>al3xandr3@gmail.com</email>
+   <name>zhujian0805</name>
+   <email>zhujian0805@gmail.com</email>
  </author>
 
  {% for post in site.categories.R %}
  <entry>
    <title>{{ post.title }}</title>
-   <link href="http://al3xandr3.github.com{{ post.url }}"/>
+   <link href="http://zhujian0805.github.com{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://al3xandr3.github.com{{ post.id }}</id>
+   <id>http://zhujian0805.github.com{{ post.id }}</id>
    {% for cat in post.categories %}  
    <category term="{{cat}}" label="{{cat}}" />
    {% endfor %}
