@@ -4,8 +4,8 @@
 
 /* TEAM */
   Developer: alexandre
-  Site: http://al3xandr3.github.com
-  Twitter: al3xandr3
+  Site: http://zhujian0805.github.com
+  Twitter: zhujian0805
   Location: tallinn, estonia
 
 /* THANKS */
